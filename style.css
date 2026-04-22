@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-.audio{
+.audio {
     align-self: center;
     justify-self: center;
 }
@@ -44,6 +44,8 @@ main {
 
 /* Below is general styling for text elements like headers, paragraphs and button text */
 
+ul,
+li,
 p,
 h1,
 h2,
@@ -194,6 +196,8 @@ button:hover {
     ); /* gradient border */
     opacity: 0.5; /* alpha for border */
 
+    pointer-events: none;
+
     -webkit-mask:
         linear-gradient(#000 0 0) content-box,
         linear-gradient(#000 0 0);
@@ -223,7 +227,12 @@ button:hover {
     margin-top: 40px;
     background-position: center;
 }
-
+.discovery {
+    height: 800px;
+    width: 900px;
+    background-image: url(images/chuck2.1.png);
+    background-position: top;
+}
 .travel {
     height: 800px;
     width: 900px;
@@ -236,7 +245,30 @@ button:hover {
     width: 900px;
     background-image: url(images/cooking-neptune-fixed.png);
 }
+.facts {
+    height: 850px;
+    width: 900px;
+    background-image: url(images/chuck.png);
+    background-position: top;
+}
+.video-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.video-container iframe {
+    width: 100%;
+    height: 450px;
+    border-radius: 12px;
+}
 
+iframe {
+    width: 100%;
+    max-width: 800px;
+    height: 450px;
+    border-radius: 12px;
+}
 .footer {
     display: flex;
     flex-direction: column;
