@@ -20,7 +20,7 @@ html {
 /* below is code used to slightly offset the location you land on when scrolling to a section in order to prevent the sticky nav-bar from covering the contents */
 
 .scroll-offset {
-    scroll-margin-top: 50px;
+    scroll-margin-top: 85px;
 }
 
 /* below is styling for the general background of the website. */
@@ -226,31 +226,43 @@ button:hover {
     height: 600px;
     margin-top: 40px;
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50% auto;;
 }
 .discovery {
     height: 800px;
     width: 900px;
     background-image: url(images/chuck2.1.png);
     background-position: top;
+    background-repeat: no-repeat;
+    background-size: 50% auto;
 }
 .travel {
     height: 800px;
     width: 900px;
-    background-image: url(images/travel-neptune-fixed.png);
-    background-position: top;
+    background-image: url(images/travel-neptune.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50% auto;
 }
 
 .cooking {
     height: 800px;
     width: 900px;
-    background-image: url(images/cooking-neptune-fixed.png);
+    background-image: url(images/cooking-neptune.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50% auto;
 }
 .facts {
     height: 850px;
     width: 900px;
     background-image: url(images/chuck.png);
     background-position: top;
+    background-repeat: no-repeat;
+    background-size: 50% auto;
 }
+
 .video-container {
     position: relative;
     width: 100%;
